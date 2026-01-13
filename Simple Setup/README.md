@@ -24,7 +24,7 @@ gcloud config set project PROJECT_ID
 
 ## MCP Configuration (`mcp.json`)
 
-This file is **identical across all operating systems**.
+This file is **identical across all operating systems**. Use this with a LLM that supports MCP Servers like Claude Code Desktop, Github Copilot, Gemini CLI etc.
 
 ```json
 {
