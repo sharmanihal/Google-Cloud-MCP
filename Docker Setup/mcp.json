@@ -1,1 +1,42 @@
 
+{
+  "servers": {
+    "gcloud": {
+      "type": "stdio",
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "C:\\Users\\<username>\\AppData\\Roaming\\gcloud:/root/.config/gcloud",
+        "gcloud-mcp:local"
+      ]
+    },
+    "observability": {
+      "type": "stdio",
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "C:\\Users\\<username>\\AppData\\Roaming\\gcloud:/root/.config/gcloud",
+        "observability-mcp:local"
+      ]
+    },
+    "storage": {
+      "type": "stdio",
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "C:\\Users\\<username>\\AppData\\Roaming\\gcloud:/root/.config/gcloud",
+        "storage-mcp:local"
+      ]
+    }
+  },
+  "inputs": []
+}
