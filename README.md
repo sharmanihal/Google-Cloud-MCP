@@ -229,20 +229,4 @@ Choose how you want to run MCP servers:
 | Docker-based         | Go to `Docker Setup/README.md` |
 
 ---
-
-## Common Mistakes to Avoid
-
-❌ Skipping `gcloud auth application-default login`
-❌ Using Node < v20
-❌ Forgetting to restart terminal after installs
-
----
-
-## Summary
-
-✅ Node.js → **Required**
-✅ Docker → **Optional**
-✅ gcloud → **Required**
-✅ Auth → **Mandatory**
-
 Once installed, your AI assistant can safely and directly interact with **real GCP infrastructure** using MCP.
